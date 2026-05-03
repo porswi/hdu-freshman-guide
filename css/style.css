@@ -50,6 +50,14 @@ img { max-width: 100%; display: block; }
   font-weight: 700; font-size: 1.05rem; color: var(--dark);
 }
 .logo-icon { font-size: 1.4rem; }
+/* ===== Logo 图片 ===== */
+.logo-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
 
 .nav-links { display: flex; gap: 4px; }
 .nav-links a {
